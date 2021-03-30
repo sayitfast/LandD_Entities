@@ -1,0 +1,8 @@
+{
+  "src/main/java/*.java": {
+    "alternate": "src/test/java/{}Tests.java"
+  },
+  "src/test/java/*Tests.java": {
+    "alternate": "src/main/java/{}.java"
+  }
+}
